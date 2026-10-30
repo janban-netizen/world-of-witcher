@@ -49,7 +49,7 @@ Online game mods need their own program that connects to a server. Antivirus too
 ### What the installer does
 
 - finds your copy of The Witcher 3 (Steam or GOG),
-- installs the launcher into the game folder,
+- installs the launcher into the game folder (the newest launcher from this page over HTTPS; if that cannot be reached, the copy inside the installer),
 - creates a desktop shortcut (only if you want one) and a Start menu entry,
 - adds World of Witcher to the list of installed apps in Windows, so you can uninstall it the normal way.
 
@@ -75,15 +75,16 @@ The mod itself (about 1 GB) is downloaded by the launcher only after you sign in
 ### How to check it yourself
 
 - **Download only from this page.** Do not use copies from anywhere else.
-- **See the [VirusTotal result for WOW-Setup.exe](https://www.virustotal.com/gui/file/884f43c84e73b5cac8cf47459b2f953e0c3138e27f12656b8769c4d6911d187d)**, where about 70 antivirus engines check it at once.
-  67 of 70 find nothing, including AVG, Avast, Bitdefender, Avira and ClamAV.
+- **See the [VirusTotal page for WOW-Setup.exe](https://www.virustotal.com/gui/file/2fb5d9e7b3ebc92bdd894d11fef0adb1caaa1e42cece29b7208c41c1559afebc)**, where about 70 antivirus engines check it at once
+  (if the page says the file is unknown, upload your downloaded copy there). For version 1.0.0, 67 of 70 found nothing, including AVG, Avast, Bitdefender, Avira and ClamAV.
   The three flags are typical for new, unsigned programs: Bkav Pro (flags most unknown programs), McAfee Scanner
   (`Ti!…` means "not seen before", based on the file's checksum) and Trapmine (a machine-learning guess, not a specific finding).
 - **Verify the checksum.** In PowerShell, run `Get-FileHash .\WOW-Setup.exe` and compare the result:
 
 | File | SHA-256 |
 |---|---|
-| WOW-Setup.exe (v1.0.0) | `884f43c84e73b5cac8cf47459b2f953e0c3138e27f12656b8769c4d6911d187d` |
+| WOW-Setup.exe (v1.0.1) | `2fb5d9e7b3ebc92bdd894d11fef0adb1caaa1e42cece29b7208c41c1559afebc` |
+| WOWOnlineLauncher.exe (v1.0.1, downloaded by the installer) | `f41124ef828d2ec77772bace49dda320ae004c72ff6df4d3fc78a0d30a425cee` |
 
 If it matches, you have exactly our file and nobody has changed it.
 
