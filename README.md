@@ -75,7 +75,10 @@ The mod itself (about 1 GB) is downloaded by the launcher only after you sign in
 ### How to check it yourself
 
 - **Download only from this page.** Do not use copies from anywhere else.
-- **Scan the file on [VirusTotal](https://www.virustotal.com)**, where more than 60 antivirus engines check it at once. For new, unsigned programs it is normal for one or two lesser-known engines to flag it "just in case".
+- **See the [VirusTotal result for WOW-Setup.exe](https://www.virustotal.com/gui/file/884f43c84e73b5cac8cf47459b2f953e0c3138e27f12656b8769c4d6911d187d)**, where about 70 antivirus engines check it at once.
+  67 of 70 find nothing, including AVG, Avast, Bitdefender, Avira and ClamAV.
+  The three flags are typical for new, unsigned programs: Bkav Pro (flags most unknown programs), McAfee Scanner
+  (`Ti!…` means "not seen before", based on the file's checksum) and Trapmine (a machine-learning guess, not a specific finding).
 - **Verify the checksum.** In PowerShell, run `Get-FileHash .\WOW-Setup.exe` and compare the result:
 
 | File | SHA-256 |
