@@ -28,6 +28,14 @@ All versions: [Releases](https://github.com/janban-netizen/world-of-witcher/rele
    After that it only downloads what is new.
 5. In the game's main menu, choose **Play World of Witcher**.
 
+## Playing the classic Witcher 3
+
+You can switch World of Witcher off in the launcher whenever you want to play the original game with your own saves.
+
+- On the launcher's first page, click **CLASSIC WITCHER 3 (MOD OFF)** and confirm. The mod files are only moved aside (nothing is deleted), and **PLAY CLASSIC** starts the original game. The first start takes a little longer.
+- To come back, click **SWITCH WORLD OF WITCHER ON**. The launcher puts the files back and checks for updates.
+- In the classic game, load only your own saves from before World of Witcher. Never load those saves while World of Witcher is on.
+
 ## Is World of Witcher safe?
 
 World of Witcher is made by one person as a **free fan project** for The Witcher 3. We sell nothing, we do not collect your data, and you do not pay to play. Below we explain openly what the installer does, why your antivirus may warn you, and how you can check everything yourself.
@@ -84,7 +92,7 @@ The mod itself (about 1 GB) is downloaded by the launcher only after you sign in
 | File | SHA-256 |
 |---|---|
 | WOW-Setup.exe (v1.0.1) | `2fb5d9e7b3ebc92bdd894d11fef0adb1caaa1e42cece29b7208c41c1559afebc` |
-| WOWOnlineLauncher.exe (v1.0.1, downloaded by the installer) | `f41124ef828d2ec77772bace49dda320ae004c72ff6df4d3fc78a0d30a425cee` |
+| WOWOnlineLauncher.exe (v1.0.2, downloaded by the installer) | `f952dc9c5c4b070f5bdd7346fc21bbe06bd8846149fa621acfb18fe0c0c5ee98` |
 
 If it matches, you have exactly our file and nobody has changed it.
 
